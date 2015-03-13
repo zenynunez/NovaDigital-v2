@@ -1,0 +1,271 @@
+.box { float: left; }
+#root { max-width: 1200px; margin: 0 auto; }
+
+
+
+/* Laptop/Tablet (768) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.ourteam-box-thumbnail:hover .option-social {
+	margin-bottom: 0px !important;
+}
+
+.ourteam-box-thumbnail:hover .thumbnail-img-ourteam {
+	margin-bottom: 0px !important;
+}
+
+
+.BRANDS:first-child {
+	border-left: 1px solid #e3e3e3 !importanr;
+}
+
+.BRANDS {
+	background:#fff;
+	border: 1px solid #e3e3e3 !important;
+	margin:-1px -1px;
+}
+
+.navbar-nav > li > a {
+padding:12px 10px;
+font-size:11px;
+}
+
+.navbar-nav {
+float:right;
+display:table;
+}
+
+.top-navigation-inner {
+    background: none repeat scroll 0% 0% #FFF;
+    padding: 10px 0px;
+}
+
+.pin-contact {
+height:230px;
+}
+
+#contact #background {
+display:none;
+}
+
+#contact {
+	max-width: 100%;
+	background: url(../images/background/contact.jpg) 100% fixed;
+	-webkit-background-size: auto 100% !important;
+	-moz-background-size: auto 100% !important;
+	-o-background-size: auto 100% !important;
+	background-size: auto 100% !important;
+	background-repeat: repeat-y;
+}
+
+.testi-background {
+	max-width: 100%;
+	background: url(../images/background/testi.jpg) 100% fixed;
+	background-size: auto 100% !important;
+	-webkit-background-size: auto 100% !important;
+	-moz-background-size: auto 100% !important;
+	-o-background-size: auto 100% !important;
+	background-repeat: repeat-y;
+}
+
+.ourskill-background {
+	background-size: auto 120% !important;
+	-webkit-background-size: auto 120% !important;
+	-moz-background-size: auto 120% !important;
+	-o-background-size: auto 120% !important;
+	background-repeat: repeat-y;
+}
+
+}
+
+/* Laptop/Tablet (1024px) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+    .container {
+        max-width: 800px;
+    }
+    .col-4 {
+        width: 50%;
+    }
+
+    .TESTIMONIALS .container {
+        padding: 20px 40px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    .icon-big-size {
+        font-size: 48px;
+    }
+
+    .icon-big-size h5 {
+        margin-top: 5px;
+    }
+
+    .icon-big-size {
+        top:0px;
+    }
+
+    .show-big {
+        border-radius: 20px;
+        font-size: 95px;
+        padding: 20px;
+        margin: 20px auto;
+        display: block;
+        color: #fff;
+        width: 80%;
+    }
+}
+
+/* Tablet Portrait (768px) */
+@media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
+    .container {
+        max-width: 720px!important;
+    }
+    .col-4 {
+        width: 50%;
+    }
+
+    .TESTIMONIALS .container {
+        padding: 20px 40px;
+    }
+    .mobile-hidden {
+        display: none;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    .icon-big-size {
+        font-size: 48px;
+    }
+
+    .icon-big-size h5 {
+        margin-top: 5px;
+    }
+
+    .icon-big-size {
+        top:0px;
+    }
+
+    .show-big {
+        border-radius: 20px;
+        font-size: 150px;
+        padding: 20px;
+        margin: 20px auto;
+        display: block;
+        color: #fff;
+        width: 40%;
+    }
+}
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+    .container {
+        max-width: 320px!important;
+    }
+    .col-4 {
+        width: 100%;
+    }
+
+    .TESTIMONIALS .container {
+        padding: 20px 40px;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+}
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 320px) {
+
+    .container {
+        max-width: 320px!important;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .TESTIMONIALS .container {
+        padding: 50px 40px;
+    }
+    .mobile-hidden {
+        display: none;
+    }
+}
+
+
+
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 1050px) {
+
+.Logo-home {
+    top: 7.5% !important;
+}
+
+}
+
+
+
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+
+#contact #background {
+display:none;
+}
+
+#contact {
+	max-width: 100%;
+	background: url(../images/background/contact.jpg) 100% fixed;
+	-webkit-background-size: auto 100% !important;
+	-moz-background-size: auto 100% !important;
+	-o-background-size: auto 100% !important;
+	background-size: auto 100% !important;
+	background-repeat: repeat-y;
+}
+
+.testi-background {
+	max-width: 100%;
+	background: url(../images/background/testi.jpg) 100% fixed;
+	background-size: auto 100% !important;
+	-webkit-background-size: auto 100% !important;
+	-moz-background-size: auto 100% !important;
+	-o-background-size: auto 100% !important;
+	background-repeat: repeat-y;
+}
+
+.ourskill-background {
+	background-size: auto 100% !important;
+	-webkit-background-size: auto 100% !important;
+	-moz-background-size: auto 100% !important;
+	-o-background-size: auto 100% !important;
+	background-repeat: repeat-y;
+}
+
+
+}

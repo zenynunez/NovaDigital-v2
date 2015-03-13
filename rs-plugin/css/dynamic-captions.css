@@ -1,0 +1,23 @@
+.tp-caption.WHITE_BIG {
+font-size:50px;
+font-weight:600;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+text-shadow:none;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.tp-caption.Blue_small {
+font-size:14px;
+color:#FFFFFF;
+text-decoration:none;
+background-color:transparent;
+text-shadow:none;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
